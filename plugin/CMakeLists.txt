@@ -73,4 +73,5 @@ if(MINGW)
 endif()
 
 add_library(${PROJECT} MODULE Max30102_UGen.cpp)
-target_link_libraries(${PROJECT} Debugging MAX30105)
+target_link_libraries(${PROJECT} MAX30105)
+# target_link_libraries(${PROJECT} Debugging MAX30105)

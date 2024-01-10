@@ -129,7 +129,7 @@ struct Max30102Thread {
                 checkBeat(unit);
                 sensor.nextSample();
             }
-            //std::this_thread::sleep_for(std::chrono::milliseconds(20));
+            std::this_thread::sleep_for(std::chrono::milliseconds(20));
         }
     }
 };
