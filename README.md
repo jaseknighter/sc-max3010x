@@ -27,8 +27,8 @@ This project will build:
     
 ### To install SuperCollider extension
 
-    cp plugin/MAX30105.so ~/.local/share/SuperCollider/Extensions/MAX30105/plugins/
-    cp plugin/MAX30105.sc ~/.local/share/SuperCollider/Extensions/MAX30105/classes/
+    cp plugin/Max30102.so ~/.local/share/SuperCollider/Extensions/MAX30105/plugins/
+    cp plugin/Max30102.sc ~/.local/share/SuperCollider/Extensions/MAX30105/classes/
     
 ### In SuperCollider
     Example 1:
