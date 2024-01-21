@@ -13,7 +13,7 @@ This project will build:
 
     mkdir build
     cd build
-    cmake -DCMAKE_BUILD_TYPE=Release -DSC_PATH=/path/to/supercollider/source ../
+    cmake -DSC_PATH=/root/supercollider -DCMAKE_C_FLAGS="-march=armv7-a -mtune=cortex-a8 -mfloat-abi=hard -mfpu=neon -O2" -DCMAKE_CPP_FLAGS="-march=armv7-a -mtune=cortex-a8 -mfloat-abi=hard -mfpu=neon -O2" ..
     make 
 
 #### To get supercollider and copy it to Bela
